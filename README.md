@@ -16,5 +16,4 @@ This project analyzes employee performance data to identify key factors influenc
 ## Business Impact
 The analysis supports HR teams in improving recruitment strategy, optimizing training programs, and enhancing workforce performance.
 
-## Project Website
- (link web của bạn)
+## Project Website: https://nhungn00-collab.github.io/Employee-Performance-Analysis/
