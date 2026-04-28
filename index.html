@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Employee Performance Analysis</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 40px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+a {
+  color: #38bdf8;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>👨‍💼 Employee Performance Analysis</h1>
+<p>HR Analytics using SQL, Python & Statistical Methods</p>
+
+<p>
+🐍 <a href="N_FP_Employee_KPI.ipynb"><b>View Python Analysis</b></a> |
+🗄️ <a href="SQLQuery_full.sql"><b>View SQL Queries</b></a>
+</p>
+
+<!-- KPI DASHBOARD -->
+<div class="card">
+<h2>📊 Key Metrics</h2>
+
+<div style="
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+margin-top:20px;
+">
+
+<div style="background:#0f172a; padding:20px; border-radius:12px; text-align:center;">
+<h4>Total Employees</h4>
+<p style="font-size:26px; font-weight:bold;">17,415</p>
+</div>
+
+<div style="background:#0f172a; padding:20px; border-radius:12px; text-align:center;">
+<h4>KPI Achieved (>80%)</h4>
+<p style="font-size:26px; font-weight:bold; color:#22c55e;">36%</p>
+</div>
+
+<div style="background:#0f172a; padding:20px; border-radius:12px; text-align:center;">
+<h4>KPI Not Achieved</h4>
+<p style="font-size:26px; font-weight:bold; color:#ef4444;">64%</p>
+</div>
+
+<div style="background:#0f172a; padding:20px; border-radius:12px; text-align:center;">
+<h4>Awarded Employees</h4>
+<p style="font-size:26px; font-weight:bold;">2.3%</p>
+</div>
+
+</div>
+
+<p>
+Only ~36% of employees achieve KPI targets, indicating a significant opportunity to improve workforce performance.
+</p>
+
+</div>
+
+<!-- OVERVIEW -->
+<div class="card">
+<h2>📌 Overview</h2>
+<p>
+This project analyzes employee performance data to identify key factors influencing KPI achievement. 
+The goal is to support HR teams in improving workforce performance through data-driven decisions.
+</p>
+</div>
+
+<!-- KEY INSIGHTS -->
+<div class="card">
+<h2>🔍 Key Insights</h2>
+<ul>
+<li><b>Previous year rating</b> is the strongest predictor of performance, with KPI achievement increasing from ~13% to over 60%</li>
+<li><b>Referral recruitment</b> produces higher-performing employees (~43%) compared to other channels (~28%)</li>
+<li><b>Training quality</b> (scores) positively impacts performance, while excessive training reduces efficiency</li>
+<li><b>Department</b> significantly affects KPI, with R&D and Operations performing highest and Sales lowest</li>
+<li><b>Performance declines with tenure</b>, indicating potential disengagement among long-term employees</li>
+</ul>
+</div>
+
+<!-- STATISTICAL -->
+<div class="card">
+<h2>📊 Statistical Analysis</h2>
+<ul>
+<li>Chi-square test shows strong relationships between Department, Recruitment, and KPI (p &lt; 0.001)</li>
+<li>ANOVA confirms significant impact of Age, Experience, Training Score, and Previous Rating</li>
+<li>Previous year rating is the most influential variable (highest statistical significance)</li>
+</ul>
+</div>
+
+<!-- BUSINESS IMPACT -->
+<div class="card">
+<h2>💡 Business Impact</h2>
+<p>
+The analysis highlights that employee performance is driven more by internal and job-related factors than demographic characteristics. 
+Organizations can improve performance by focusing on effective recruitment strategies, optimizing training quality, and managing long-term employee engagement.
+</p>
+</div>
+
+<!-- RECOMMENDATIONS -->
+<div class="card">
+<h2>🚀 Recommendations</h2>
+<ul>
+<li>Prioritize referral hiring to improve workforce quality</li>
+<li>Focus on training effectiveness rather than quantity</li>
+<li>Implement continuous performance evaluation systems</li>
+<li>Target low-performing departments with tailored strategies</li>
+<li>Develop engagement programs for long-tenured employees</li>
+</ul>
+</div>
+
+<!-- TOOLS -->
+<div class="card">
+<h2>🛠 Tools Used</h2>
+<ul>
+<li>SQL (Data cleaning & transformation)</li>
+<li>Python (Pandas, statistical analysis)</li>
+<li>Power BI (Visualization)</li>
+</ul>
+</div>
+
+</body>
+</html>
